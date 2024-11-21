@@ -258,7 +258,7 @@ prompt_aws() {
 # add new line
 prompt_new_line() {
   echo '\n'
-  prompt_segment white $CURRENT_FG ""
+  prompt_segment magenta $CURRENT_FG ""
 }
 
 ## Main prompt
